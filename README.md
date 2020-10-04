@@ -1,4 +1,4 @@
-# sparkify
+# sparkify - data science capstone project 
 
 ### Table of Contents
 
