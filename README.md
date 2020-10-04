@@ -62,12 +62,11 @@ The following steps were performed to build the model:
 4. Build and Evaluate different ML models
         To train and evaluate different ML models a 'model_train_and_evaluate' function was used.
         This function performed several steps:
-            1. Splitting dataset in training- and testset
-            2. Building a pipeline that performs vectorization of the dataset using Vector Assembler, normalization of the dataset using Normalizer and classification of the dataset using different classifier (depending on input) 
-            3. Fit pipeline on training set
-            4. predict data on test set
-            5. initialize MultiClassClassification Evaluater
-            6. evaluate model on f1 score and accuracy
+        1. Splitting dataset in training- and testset
+        2. Building a pipeline that performs vectorization of the dataset using Vector Assembler, normalization of the dataset using Normalizer and classification of the dataset using different classifier (depending on input) 3. Fit pipeline on training set
+        4. predict data on test set
+        5. initialize MultiClassClassification Evaluater
+        6. evaluate model on f1 score and accuracy
         The function was then used with different classifiers:
         - Logistic Regression
         - Linear Support Vector Machine
