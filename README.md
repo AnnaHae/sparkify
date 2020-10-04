@@ -31,9 +31,11 @@ There is one notebook available here to showcase work related to the above quest
 ## Project Description <a name="descriptions"></a>
 
 The following steps were performed to build the model:
-    1. Load and clean data
+   
+1. Load and clean data
         The data was loaded using Sparks build in read.json method. Afterwards the nan and missing values were analyzed and removed for the userID and sessionID column.
-    2. Explore data
+ 
+ 2. Explore data
         After step 1 the cleanded dataset was used to create a churn column that is used as a label for the machine learning model later.
         Using this column the dataset was further explored:
             - total churn ratio of unique users
@@ -41,7 +43,8 @@ The following steps were performed to build the model:
             - subscription type churn ratio
             - time since registration
             - average number of items per session
-    3. Feature Engineering
+
+3. Feature Engineering
         In this part of the projects features were build to train the model.
         Following features seemed promising:
             - days since registration
@@ -56,7 +59,7 @@ The following steps were performed to build the model:
         The churn column was used as label for the model.
         All of those features and the label column were joined to the dataframe that was used for trianing and testing different ML models.
         
-    4. Build and Evaluate different ML models
+4. Build and Evaluate different ML models
         To train and evaluate different ML models a 'model_train_and_evaluate' function was used.
         This function performed several steps:
             1. Splitting dataset in training- and testset
