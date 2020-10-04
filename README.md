@@ -68,13 +68,13 @@ The following steps were performed to build the model:
         5. initialize MultiClassClassification Evaluater
         6. evaluate model on f1 score and accuracy
         The function was then used with different classifiers:
-        - Logistic Regression
-        - Linear Support Vector Machine
-        - Decision Tree
-        - Gradient Boosted Tree
-        - Random Forest Classifier
+    - Logistic Regression
+    - Linear Support Vector Machine
+    - Decision Tree
+    - Gradient Boosted Tree
+    - Random Forest Classifier
         
-    5. Tune Hyperparameters of ML Model
+5. Tune Hyperparameters of ML Model
         The last step of the project was tuning the hyperparameters of the chosen model using ParamGridBuilder and CrossValidator. In this case xyxy was the model with the highest accuracy score and therefor tuning of hyperparameters was done with this model.Here the f1 score was used as metric to optimize, since the churned users are a fairly small subset in the dataset.
         
         
